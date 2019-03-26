@@ -1,0 +1,59 @@
+{
+  "_from": "https://www.atom.io/api/packages/linter-cpplint/versions/2.1.0/tarball",
+  "_id": "linter-cpplint@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-XFam3lfZyeFbyenK8Vh5AwElSuiZFIgvt0HWKoh95Ni8wrXwqu13pqSLjnIu/9klfipUBmBILeoXTGvJv5wFVw==",
+  "_location": "/linter-cpplint",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/linter-cpplint/versions/2.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/linter-cpplint/versions/2.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/linter-cpplint/versions/2.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/linter-cpplint/versions/2.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/linter-cpplint/versions/2.1.0/tarball",
+  "_shasum": "e42f693a46911c45647ba48028173094547280f9",
+  "_spec": "https://www.atom.io/api/packages/linter-cpplint/versions/2.1.0/tarball",
+  "_where": "C:\\Users\\あかいの\\AppData\\Local\\Temp\\apm-install-dir-11927-9272-18i1s2r.dhh3",
+  "bugs": {
+    "url": "https://github.com/AtomLinter/linter-cpplint/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-linter": "^10.0.0",
+    "atom-package-deps": "^5.0.0"
+  },
+  "deprecated": false,
+  "description": "Linter plugin for c++, using cpplint.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/AtomLinter/linter-cpplint#readme",
+  "license": "MIT",
+  "main": "./lib/init.coffee",
+  "name": "linter-cpplint",
+  "package-deps": [
+    "linter:2.0.0"
+  ],
+  "private": true,
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtomLinter/linter-cpplint.git"
+  },
+  "scripts": {
+    "test": "apm test"
+  },
+  "version": "2.1.0"
+}

@@ -1,0 +1,11 @@
+"*":
+  core:
+    fileEncoding: "shiftjis"
+    uriHandlerRegistration: "never"
+  editor:
+    fontSize: 17
+  "exception-reporting":
+    userId: "8b6b9920-16ca-4a29-9c24-a883705f8b17"
+  "linter-gcc":
+    execPath: "C:\\MinGW\\bin\\gcc.exe"
+    gccLintOnTheFly: true
