@@ -3,7 +3,14 @@
     fileEncoding: "shiftjis"
     uriHandlerRegistration: "never"
   editor:
-    fontSize: 17
+    fontSize: 18
+  "editor-background":
+    image:
+      backgroundSize: "cover"
+      opacity: 50
+      overlayColor: "#000000"
+      url: "/Users/あかいの/.atom/images/otomekaibou.jpg"
+    text: {}
   "exception-reporting":
     userId: "8b6b9920-16ca-4a29-9c24-a883705f8b17"
   "linter-gcc":

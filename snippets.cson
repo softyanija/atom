@@ -26,7 +26,7 @@
     'body': 'printf("$1", );'
   'for':
     'prefix': 'for'
-    'body': 'for(i=0;i<n;i++){}'
+    'body': 'for(i=0;i<n;++i){}'
   'using':
     'prefix': 'using'
     'body': 'using namespace std;'
